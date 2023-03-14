@@ -1,5 +1,45 @@
 @import '../global.scss';
 
 .header__bg {
-    background: $ocean-blue;
+    min-height: 800px;
+    background-image: url('../../../assets/images/cliffs-cropped.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+    &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: linear-gradient(transparent, rgba(0, 74, 173, .4));
+    }
+}
+
+.header__content {
+    z-index: 1;
+    padding: 40px;
+}
+
+.header__title {
+    @include h1;
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+}
+
+.header__subhead {
+    font-family: $script-text;
+    color: white;
+    font-weight: 400;
+    font-size: 120px;
+    margin: 0;
+    text-align: center;
 }

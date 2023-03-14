@@ -1,0 +1,12 @@
+@import '../variables.scss';
+
+@mixin h1 {
+    font-family: $display-text;
+    font-weight: 100;
+    font-size: 160px;
+    margin: 0;
+}
+
+@mixin script {
+    font-family: $script-text;
+}

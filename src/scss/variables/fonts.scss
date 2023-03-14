@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'ferly';
+    src: url('../../../assets/fonts/Ferly.otf') format('opentype');
+    font-weght: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'melissa';
+    src: url('../../../assets/fonts/mellissa\ darling.ttf') format('truetype');
+    font-weght: 100;
+    font-style: normal;
+}
+
+$display-text: 'ferly', 'Georgia', 'serif';
+$script-text: 'melissa', 'cursive';

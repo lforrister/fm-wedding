@@ -4,7 +4,10 @@ const Header = () => {
     return (
         <>
             <div className="header__bg">
-                <h1> I AM THE HEADER</h1>
+                <div className="header__content">
+                    <h1 className="header__title"> Lindsay & Eric</h1>
+                    <p className="header__subhead">July 20, 2024 | Denver, Colorado</p>
+                </div>
             </div>
         
         </>
