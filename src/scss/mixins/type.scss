@@ -1,5 +1,10 @@
 @import '../variables.scss';
 
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
 @mixin h1 {
     font-family: $display-text;
     font-weight: 100;
