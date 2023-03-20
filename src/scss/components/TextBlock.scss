@@ -2,8 +2,33 @@
 
 .textBlock__bg {
     background: $sky-blue;
+    padding: 125px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .textBlock__content {
-    padding: 125px;
+    background: rgba(255, 255, 255, .54);
+    width: 60%;
+    padding: 50px 75px;
+    position: relative;
+}
+
+.textBlock__headline {
+    color: $ocean-blue;
+    font-family: $script-text;
+    font-size: 120px;
+    font-weight: 100;
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.textBlock__copy {
+    font-family: $body-text;
+    font-size: 18px;
+    line-height: 1.75;
+    color: $ocean-blue;
 }

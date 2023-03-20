@@ -1,12 +1,13 @@
 import React from 'react'
 import '../scss/components/TextBlock.scss'
 
-function TextBlock ({headline}) {
+function TextBlock ({headline, copy}) {
     return (
         <>
             <div className="textBlock__bg">
                 <div className="textBlock__content">
-                    <h1>Headline: { headline } </h1>
+                    <h1 className="textBlock__headline">{ headline } </h1>
+                    <p className="textBlock__copy">{ copy }</p>
                 </div>
             </div>
         </>
