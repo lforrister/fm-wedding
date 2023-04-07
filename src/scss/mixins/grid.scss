@@ -1,0 +1,9 @@
+@import '../variables.scss';
+
+@mixin wrapper {
+    padding: 0 120px;
+}
+
+.wrapper {
+    @include wrapper;
+}

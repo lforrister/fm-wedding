@@ -1,0 +1,28 @@
+@import '../global.scss';
+
+.imgText__container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imgText__image {
+    width: 33%;
+
+    img {
+        width: 100%;
+    }
+}
+
+.imgText__content {
+    background: $ocean-blue;
+    width: calc(66% - 40px);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+    h2 {
+        @include script;
+        color: white;
+        font-size: 120px;
+    }
+}

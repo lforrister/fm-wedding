@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../components/Header'
 import TextBlock from '../components/TextBlock'
+import ImgText  from '../components/ImgText'
 
 const Home = () => {
     const headline = "Our Story"
@@ -10,6 +11,7 @@ const Home = () => {
         <>
             <Header />
             <TextBlock headline={headline} copy={ourStory} />
+            <ImgText />
         </>
     )
 }
